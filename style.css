@@ -1,0 +1,472 @@
+/* Reset CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    width: 1150px;
+    margin: auto;
+    max-width: 100%;
+}
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.py {
+    padding: 50px 0px;
+}
+.text-center {
+    text-align: center;
+}
+/* Reset CSS End */
+
+/* Header Section Start */
+.header {
+    background: #fff;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}
+
+.nav-logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+.nav-logo img {
+    width: 70px;
+}
+
+.nav-menu {
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+.nav-menu ul li {
+    display: inline-block;
+}
+.nav-menu ul li a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+.banner {
+    background: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    padding: 80px 0px;
+    position: relative;
+    z-index: 1;
+}
+.banner::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.356);
+    position: absolute;
+    z-index: -1;
+}
+
+.banner-text {
+    padding: 100px;
+}
+.banner-text p {
+    color: #fff;
+    font-size: 20px;
+}
+.banner-text h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.banner-text a {
+    color: #7D7D7D;
+    background: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 0px 5px;
+    transition: .5s;
+    font-weight: 600;
+}
+.banner-text a:hover {
+    background: #E79230;
+    color: #fff;
+}
+/* Banner Section End */
+
+/* Price Section Start */
+.pricing {
+    background: #F7F7F7;
+    padding: 100px 0;
+}
+.pricing h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.pricing p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricing-item {
+    background: #fff;
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.13);
+
+}
+
+.pricing-item:nth-child(3) {
+    margin-right: 0;
+}
+.pricing-item .box-top {
+    padding: 20px;
+    transition: 0.5s;
+}
+.pricing-item:hover .box-top {
+    background: #E79230;
+
+}
+
+
+.pricing-item .box-top h2 {
+    padding: 10px 0px;
+    font-weight: 700;
+}
+.pricing-item .box-top h3 {
+    background: rgb(245, 245, 245);
+    font-size: 35px;
+}
+.pricing-item .box-top h3 span {
+    font-size: 20px;
+}
+.pricing-item .box-top h4 {
+    padding: 15px 0px;
+}
+
+
+.pricing-item .box-bottom {
+    padding: 20px;
+}
+.pricing-item .box-bottom ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.pricing-item .box-bottom ul li i {
+    color: #E79230;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.pricing-item .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px  30px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+.pricing-item:hover .button {
+    background: #E79230;
+    color: #fff;
+}
+
+.pricing-item .button:hover {
+    background: #000;
+}
+/* Price Section End */
+
+/* Team Section Start */
+.team h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-box .member {
+    float: left;
+    width: 22%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.178);
+}
+.team-box .team-member .member {
+    border: 5px double #E79230;
+}
+.member-bio {
+    padding: 10px 0;
+}
+.team-box .team-member .member h4 {
+    padding: 5px 10px;
+}
+.team-box .team-member .member p {
+    padding: 5px 10px;
+}
+/* Team Section End */
+
+/* News section Start */
+.news {
+    background: #F5F5F5;
+    text-align: center;
+}
+.news-title {
+    text-align: center;
+}
+.news-title h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #68828d;
+}
+.news-title h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.newsleter-form {
+    margin-top: 60px;
+}
+.default-input {
+    width: 571px;
+    padding: 20px 15px;
+    font-size: 20px;
+    border: 3px solid #CBD28E;
+    border-radius: 10px;
+    box-shadow: 3px 4px 30px 0 rgba(98, 121, 223, 0.561);
+}
+.default-input:focus {
+    outline: none;
+    box-shadow: 3px 4px 30px 0 rgba(98, 121, 223, 0.561);
+}
+.submit-btn {
+    background: #AA972C;
+    font-size: 23px;
+    color: #fff;
+    border: none;
+    padding: 20px 90px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 3px 4px 30px 0 rgba(98, 121, 223, 0.52);
+    margin-bottom: 20px;
+}
+.submit-btn:hover {
+    background: #fff;
+    color: #AA972C;
+    border:1px solid #AA972C;
+    transition: .4s;
+}
+/* News section End */
+
+/* Why Section Start */
+.why-title h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.why-left {
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+
+.why-left img {
+    width: 90%;
+    height: 450px;
+}
+
+.box-right {
+    margin-bottom: 70px;
+}
+.box-right {
+    float: right;
+    width: 50%;
+}
+.why-right {
+    margin-top: 15px;
+}
+.why-right h3 {
+    font-size: 20px;
+    color: #38535d;
+    margin-bottom: 10px;
+    font-weight: 600
+}
+.why-right p {
+    font-weight: 500;
+    color: #68828d;
+}
+/* Why Section End */
+
+/* Testimonial Section Start */
+.testimonial {
+    background: #F5F5F5;
+}
+.testimonial-title {
+    text-align: center;
+}
+.testimonial-title h4 {
+    font-weight: 500;
+    color: #68828d;
+    padding-bottom: 30px;
+}
+.testimonial-title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.testimonial-items .t-item {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    border: 2px solid #D3D3D3;
+}
+.t-item:nth-child(3) {
+    margin-right: 0;
+}
+
+.t-content {
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgba(98, 121, 223, 0.52);
+    padding: 60px 40px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.t-content::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+
+}
+.t-content p {
+    color: #767676;
+    font-size: 20px;
+    line-height: 1.7em;
+    position: relative;
+}
+.t-content p::before {
+    content: '\f10d';
+    font-family: FontAwesome;
+    font-size: 76px;
+    position: absolute;
+    opacity: .1;
+}
+
+.t-box-left {
+    float: left;
+    width: 30%;
+    border: 4px solid #AA972C;
+    
+}
+.t-box-left img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -4px;
+}
+
+.t-user-bio {
+    padding:  30px 20px ;
+    display: inline-block;
+}
+.t-user-bio h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.t-user-bio span {
+    color: #767676;
+}
+
+.t-user-img {
+    
+    padding-left: 80px;
+}
+/* Testimonial Section End */
+
+/* Contact Section Start */
+.contact {
+    text-align: center;
+}
+.contact-title {
+    text-align: center;
+}
+.contact-title h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.contact-title p {
+    font-size: 20px;
+    color: #767676;
+    padding-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.219);
+    border: none;
+    border: 1px solid #aa972c9a;
+}
+.btn:focus {
+    outline: 2px solid rgb(84, 127, 195);
+}
+.w100 {
+    width: 74%;
+}
+.w50 {
+    width: 400px;
+    margin: 0px 20px;
+}
+/* Contact Section End */
+
+/* Footer Section Start */
+.footer {
+    text-align: center;
+}
+.footer p {
+    font-size: 20px;
+    padding: 20px 0px;
+}
